@@ -76,7 +76,7 @@ post '/visit' do
 	f.write "Hairdresser:#{@Hairdresser}, User: #{@name}, phone: #{@phone}, Date and time: #{@datetime}! Color: #{@color}\n\n"
 	f.close
 
-	erb "Thank you! Dear, #{@name} we'll be waiting for you at #{@datetime} Your Hairdresser:#{@Hairdresser}! Youre color: #{@color}"
+	erb "Thank you! Dear, #{@name} we'll be waiting for you at #{@datetime} Your Hairdresser:#{@Hairdresser}! Your color: #{@color}"
 end
 
 post '/contacts' do 
