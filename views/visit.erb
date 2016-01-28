@@ -1,20 +1,7 @@
 <h2>Записаться</h2>
 <p>На этой странице вы сможете записаться!</p>
 
-
-
-
-
-
 <form action="/visit" method="POST">
-
-
-<p>Выберите парикмахера</p>
-<select name="hairdresser" class="form-control">
-  <option value="Walter White">Walter White</option>
-  <option value="Jessie Pinkman">Jessie Pinkman</option>
-  <option value="Gus Fring">Gus Fring</option>
-</select>
 
   <div class="form-group">
     <label>Ваше имя</label>
@@ -31,6 +18,15 @@
     <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время посещения">
   </div>
 
-  <button type="submit" class="btn btn-primary">Записаться</button>
+<div class="form-group">
+    <label>Выберите парикмахера</label>
+      <select name="hairdresser" class="form-control">
+        <option value="Walter White">Walter White</option>
+        <option value="Jessie Pinkman">Jessie Pinkman</option>
+        <option value="Gus Fring">Gus Fring</option>
+      </select>
+</div>
+
+<button type="submit" class="btn btn-primary">Записаться</button>
 
 </form>
